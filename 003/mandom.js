@@ -1,5 +1,5 @@
-function clicou() {
-    /*const teste = document.querySelector('#teste');
+/*function clicou() {
+    const teste = document.querySelector('#teste');
     const ul = teste.querySelector('ul');
 
   // ul.children[0].append("(alterado)");
@@ -22,7 +22,7 @@ function clicou() {
     }*/
 
 
-   const input = document.querySelector('input');
+   c/*onst input = document.querySelector('input');
    const botao = document.querySelector('.botao');
 
    if(input.getAttribute('type') === 'text'){
@@ -34,4 +34,12 @@ function clicou() {
    }
 
 
-    }    
+    }  */
+
+
+    function clicou(){
+        const li = document.querySelector('li')
+        li.style.backgroundColor = '#00f';
+        li.style.fontSize = '45px';
+        console.log(li)
+    }
